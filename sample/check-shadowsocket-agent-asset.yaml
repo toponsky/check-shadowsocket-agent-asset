@@ -1,0 +1,8 @@
+type: Asset
+api_version: core/v2
+metadata:
+  name: check-shadowsocket-agent-asset
+  namespace: default
+spec:
+  url: https://github.com/toponsky/check-shadowsocket-agent-asset/releases/download/0.0.1/check-shadowsocket-agent-asset-0.0.1.tar.gz
+  sha512: a94c2d92ed2fb68599f6977f6f04c09a41f4f881319d90bcaa2d3018319c978602ffc9678d04500b63af359bdf0b0e48cf8eff37b7547df97c9b908733f7b6ab

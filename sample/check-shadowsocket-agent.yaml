@@ -1,0 +1,13 @@
+type: CheckConfig
+api_version: core/v2
+metadata:
+  name: check-shadowsocket-agent-task
+  namespace: default
+spec:
+  command: command.sh
+  runtime_assets:
+  - check-shadowsocket-agent-asset
+  interval: 60
+  publish: true
+  subscriptions:
+  - shadowsocket_task_agent
