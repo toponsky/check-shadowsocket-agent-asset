@@ -34,7 +34,7 @@ def check_ss_server_task():
     output = p.communicate()[0].decode("utf-8")
     
     if(output.split("\n")[1].find("ss_server") != -1):
-        print(output)
+        print(output.encode('ascii', 'ignore').decode('ascii'))
         exit(0)
     else:
         print(get_error_msg())
@@ -42,3 +42,5 @@ def check_ss_server_task():
 
 
 check_ss_server_task()
+
+
