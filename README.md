@@ -1,0 +1,1 @@
+# check-shadowsocket-agent-asset
